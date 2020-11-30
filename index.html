@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-or-Not</title>
+</head>
+<body>
+ <!-- Navbar -->
+ <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Weather or Not</a>
+    </div>
+ </nav>
+ <!--Side Menu-->
+    <div class="row">
+        <div class="col l3">
+          <form class="sidebar">
+            <div class="input-field">
+                <input placeholder="Search Destination" id="user-input" type="text" class="validate"><button class="selectbutton" type="button">Select</button>
+            </div>
+            <table class=sidemenu>
+                <tr>
+                  <th>Previously Searched</th>
+                </tr>
+                <br/>
+                <tr>
+                  <td id="city1" class="searched-city"></td>
+                </tr> 
+                <tr>
+                    <td id="city2" class="searched-city"></td>
+                </tr>
+                <tr>
+                    <td id="city3" class="searched-city"></td>
+                </tr> 
+                <tr>
+                    <td id="city4" class="searched-city"></td>
+                </tr>
+                <tr>
+                    <td id="city5" class="searched-city"></td>
+                </tr> 
+                <tr>
+                    <td id="city6" class="searched-city"></td>
+                </tr>
+              </table>
+         </form>
+        </div>
+        <!-- Add attributes to each headline from response data -->
+        <section class="col l9" class="main-content">
+            <h2 class="cityname"></h2>
+            <h5 class="conditions"></h5>
+            <h5 class="temperature"></h5>
+            <h5 class="humidity"></h5>
+            <h5 class="wind-speed"></h5>
+        </section>
+        <div class="container">
+                <h3 class="weekly-forecast">5-Day Forecast</h3>
+                <!-- 5 days of forecast goes below -->
+                
+            </div>
+        </div>
+    </div>
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
+ 

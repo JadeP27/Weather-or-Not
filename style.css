@@ -1,0 +1,20 @@
+body {
+    
+}
+.nav-wrapper {
+    background-color: peru;
+}
+.main-content {
+   padding: 10px;
+}
+.sidemenu {
+    padding: 15px;
+    background-color: lightgray;
+    line-height: 50px;
+}
+.searched-city {
+    height: 50px;
+}
+.weekly-forecast {
+    margin: 15px;
+} 
